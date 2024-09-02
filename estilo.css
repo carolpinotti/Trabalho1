@@ -1,0 +1,70 @@
+/* Podemos inserir aqui ou em um arquivo CSS separado - inserindo 
+<link rel="stylesheet" href="estilocss.css"> */
+
+/*Código das cores complementares utilizadas: #A7D6BB #967674 #D6AAA7 #598169 #57302D #123320*/
+
+html{
+    font-family: Verdana;
+    font-size: 12pt;
+    color: #123320;
+    margin: 3pt;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    background-color: #ABD6BC;
+    color: #123320;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #ABD6BC;
+    color: #D6AAA7;
+    text-align: center;
+}
+
+.menu{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center; /*menu centralizado*/
+    gap: 20px;
+}
+
+.rodape{ /*Informações do rodapé*/
+    grid-column-start: 1;
+    grid-column-end: 12;
+    color: #ABD6BC;
+    text-align: center;
+    font-size: 8pt;
+}
+
+a, a:link{
+    text-decoration: none; /*tira o sublinhado*/
+    padding: 4px 10px;
+    color: #123320;
+}
+
+a:hover{ /*Estilo quando passa o mouse*/
+    background-color: #ABD6BC;
+    color: #D6AAA7;
+}
+
+.menu_ul{
+    list-style-type: none; /*tira marcador de bolinha da lista*/
+    color: #DBA181;
+}
+
+li{
+    float: left;
+}
+
+/*li a{
+    display: block;
+}*/
+
+img{
+    padding: 15px;
+    margin: 0;
+}
